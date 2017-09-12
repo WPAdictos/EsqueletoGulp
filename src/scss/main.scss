@@ -1,0 +1,23 @@
+/*
+kaka
+*/
+
+/*!
+pepito
+*/
+
+$color-fondo : #CCCCCC;
+
+body{
+    background-color: $color-fondo;
+    &
+    p{
+        text-align: center;
+    }
+}
+
+
+
+.testCSS3{
+    transition: all 4s;
+}
