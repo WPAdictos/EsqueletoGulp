@@ -99,8 +99,8 @@ gulp.task('ftp', function() {
                remotePath: '/public_html/proyectos/jacob/test',
                host: 'server133.web-hosting.com',
                port: 21,
-               user: 'capcrqbw',
-               pass: 'TRe5kFRwb8d!E'
+               user: 'usuario',
+               pass: 'contraseña'
                }))
          .pipe(gulp.dest('.'))
          .pipe(notify({message: "Subido ficheroFTP"}))
